@@ -11,12 +11,6 @@
 	background-color: white;
 }
 
-.carousel-inner>.item>.carousel-img {
-    width: 100%;
-    margin: auto;
-    padding: auto;
-}
-
 .carousel-indicators li {
     display: inline-block;
     width: 10px;
@@ -66,7 +60,6 @@
 }
 
 .popover-content .contact-info {
-    /*position: absolute;*/
     width: 100px;
 }
 

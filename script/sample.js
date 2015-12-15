@@ -1,4 +1,6 @@
  $(function(){
+      $('#myCarousel').find('.carousel-img').height($(window).height());
+      $('#myCarousel').find('.carousel-img').width($(window).width());
       $('#myCarousel').carousel({interval: 5000});
       $('.float-li').hover(function(){//infunction
          $(this).css("background-color","#f0f0f0");
