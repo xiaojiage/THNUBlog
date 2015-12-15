@@ -10,18 +10,10 @@
 
  $(document).ready(
    function(){
-      // $('.contact-us').popover({
-      //    html : true,
-      //    content : function() {
-      //       var info = $(this).next().html();
-      //       console.log(info);
-      //       return info;
-      //    }
-      // });
       $('.contact-us').popover({
          html : true,
          content : function() {
-            var info = $(this).next().html();
+            var info = $(this).find('.contact').html();
             console.log(info);
             return info;
          }
