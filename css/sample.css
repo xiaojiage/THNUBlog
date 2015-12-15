@@ -70,3 +70,10 @@
 .carousel-img {
     width:100%;
 }
+
+.footer {
+    background: #000000;
+    color: #fdfdfd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

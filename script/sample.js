@@ -1,8 +1,10 @@
  $(function(){
-      $(window).resize(function(){
-         $('#myCarousel').find('.carousel-img').height($(window).height());
-      });
-      $('#myCarousel').find('.carousel-img').height($(window).height());
+      // $(window).resize(function(){
+      //    $('#myCarousel').height($(window).height());
+      //    $('.carousel-inner').height($('#myCarousel').parent().height());
+      // });
+      // $('#myCarousel').height($(window).height());
+      // $('.carousel-inner').height($('#myCarousel').parent().height());
       $('#myCarousel').carousel({interval: 5000});
       $('.float-li').hover(function(){//infunction
          $(this).css("background-color","#f0f0f0");
